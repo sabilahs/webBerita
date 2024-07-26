@@ -1,0 +1,182 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('assets/berita.jpg') center center/cover no-repeat;
+    color: #fff;
+    text-align: center;
+    padding: 150px 0; /* Menaikkan padding untuk memberi ruang lebih di bawah teks */
+}
+
+#hero h2 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+#features {
+    padding: 80px 0;
+    text-align: center;
+    background: #fff;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-around; /* Menyusun secara rata di sepanjang sumbu utama */
+    flex-wrap: wrap; /* Wrap ke baris berikutnya jika kontainer tidak cukup lebar */
+}
+
+.feature-item {
+    width: 30%; /* Lebar setiap item */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.feature-item h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.feature-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.feature-item p {
+    margin-top: 10px;
+}
+
+.feature-item a {
+    display: block; /* Memastikan link menempati seluruh area item */
+    text-decoration: none;
+    color: #333;
+}
+
+.feature-item a:hover {
+    text-decoration: underline;
+}
+section#content {
+    padding: 20px 0;
+}
+
+article {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+article h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+article img {
+    max-width: 100%;
+    height: 20%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+article p {
+    color: #666;
+    line-height: 1.9;
+}
+.recommendations {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.recommendations h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.recommendation-item {
+    margin-bottom: 15px;
+}
+.recommendation-item img {
+    width: 100px; /* Atur lebar gambar */
+    height: auto; /* Biarkan tinggi gambar menyesuaikan */
+    margin-right: 20px; /* Jarak kanan antara gambar dan teks */
+    border-radius: 8px; /* Membuat sudut gambar menjadi lengkung */
+}
+
+.recommendation-item h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.recommendation-item p {
+    color: #666;
+}
+footer {
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    bottom: 0;
+    width: 80%;
+    color: #333;
+}
+.container {
+    width: 70%;
+    margin: 10px auto;
+    height:5%
+}
+
+
